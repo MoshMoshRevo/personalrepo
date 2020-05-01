@@ -1,0 +1,85 @@
+// For Vehicles, the first two values (SMMTTID, VehicleType) are mandatory or the entry will be skipped
+// If there is no ModelName or the ModelName does not exist in the Sim, a generic will be used
+// SMMTTID VehicleType ModelName LengthInMeters WidthInMeters MassInTons MaxSpeedInKnots ModelRotationX ModelRotationY ModelRotationZ
+// Place spaces between entries
+
+[Vehicles]
+
+	0 UNKNOWN GenericUnknownVehicle 1 1 1 40 0 0 0
+
+	// 0000-1000 Surface Ships
+	
+		1 BOAT GenericBoat 50 25 50 40 0 0 0
+		
+		94 BOAT hainan 58.77 5 430 40 0 0 0
+		95 BOAT USS_LCS2 127.4 1 3104 40 0 0 0
+		96 BOAT Arleigh-Burke 155 1 9200 40 0 0 0
+		99 BOAT lcac75Boat 26.4 1 185 40 0 0 0
+		100 BOAT lpd_17 208 1 25300 22 0 0 0
+		101 BOAT container_chiq 212 1 2490 13 0 0 0
+	
+	// 1001-2000 Air Vehicles
+	
+		1001 QUADCOPTER WhiteQuadcopter 1 1 1 40 0 0 0
+		1002 QUADCOPTER GLUAS 1 1 1 40 0 0 0
+		1004 QUADCOPTER WhiteQuadcopterNetwork 1 1 1 40 0 0 0
+		// 4xQuad
+		1054 QUADCOPTER WhiteQuadcopterNetwork 1 1 1 40 0 0 0 
+		1055 QUADCOPTER GLUAS 1 1 1 40 0 0 0
+			
+		1500 PROJECTILE DumbMissile 3 1 1 40 0 0 0
+		1501 PROJECTILE IDTrackingProxMissile 3 1 1 40 0 0 0
+		1502 PROJECTILE NetworkMissile 3 1 1 40 0 0 0
+		
+		1600 HELICOPTER Firescout 7.3 1 2 40 0 0 0
+		1601 HELICOPTER Apache 17.6784 1 2 40 0 0 0
+		1602 HELICOPTER Seahawk 19.75 1 2 40 0 0 0
+		
+	// 2001-3000 Submersibles
+	
+		2001 SUB 688 50 25 50 40 0 0 0
+		
+		2101 SUB UUV3 10 5 1 40 0 0 0
+		2100 SUB LDUUV 15.5 5 1 8 0 0 0
+		
+		2200 TETHER TetheredRedbox 1 1 1 40 0 0 0 0 52
+		2201 TETHER TetheredDroneLauncher 1 1 1 40 0 0 0 0 15
+		2202 TETHER TetheredSMIEffector 1 1 1 40 0 0 0
+		//2203 BOTTOMSENSOR BottomSensor 1 1 1 40 0 0 0
+		2203 BOTTOMSENSOR BottomSensor 1 1 1 40 0 0 0
+		2204 TETHER pez 1 1 1 40 0 0 0
+		2205 TETHER EncapsulatedEffector-VTorpedo 1 1 1 40 0 0 0 0 20
+		2206 TETHER EncapsulatedEffector-VDrone 1 1 1 40 0 0 0 0 20	
+		
+		2300 BUOY C2Buoy 1 1 1 40 0 0 0 0 52
+		2301 BUOY DroneCanister 1 1 1 40 0 0 0 0 15
+		
+		2500 PROJECTILE DumbTorpedo 3 1 1 40 0 0 0
+		2501 PROJECTILE IDTrackingTorpedo 3 1 1 40 0 0 0
+		2502 PROJECTILE NetworkTorpedo 3 1 1 40 0 0 0
+
+		2750 BOTTOMMINE SimplifiedManta 2 2 1 40 0 0 0
+		2751 TETHERMINE FloatingMine 2 2 1 40 0 0 0
+		2752 NEARSURFACEMINE NearSurfaceFloatingMine 2 2 1 40 0 0 0
+		2753 VOLUMEMINE VolumeFloatingMine 2 2 1 40 0 0 0
+		2754 BOTTOMMINE BottomFloatingMine 2 2 1 40 0 0 0
+	
+	// 3001-4000 Ground Vehicles
+	
+		3001 CAR MilitaryTruck 5 1 40 0 0 0
+		3002 CAR M1Abrams 8 1 40 0 0 0
+		3250 ARTILLERY Mk-49Launcher 5 5 100 40 0 0 0
+		3251 ARTILLERY Mortar 1 1 1 40 0 0 0
+	
+	// 4001-5000 Buildings
+	
+		4001 STATIC CommandBuilding 10 1 1 40 0 0 0
+		4002 STATIC AirbaseControlTower 10 1 1 40 0 0 0
+		4100 STATIC SimpleSat 10 1 1 40 0 0 0
+		4101 STATIC FloatingTarget 1 1 1 40 0 0 0 0
+	
+	// 5001-6000 Clutter
+	
+	
+
+[End]

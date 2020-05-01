@@ -1,0 +1,18 @@
+[Global]
+Start Date & Time=01/18/2016 08:00:00
+
+[Environment]
+Fog=100000
+Sea State=3
+Wind Speed=10
+Wind Direction=20
+Precip Type=0
+Precip Intensity=0
+Cloud Ceiling=40000
+Cloud Density=1
+
+// Contact Format:
+// SMMTID(SECIID,TARGETASCID,HULLNUM)=LAT LON HEADING ALTITUDE SPEED ENGINESMOKE FLAMESPRESENT SMOKEPLUME RUNNINGLIGHTS -ScriptFileName
+// ScriptFileName is an optional parameter
+[Contacts]
+1001(0,-1,21)=21.26539993 -157.82699585 150.000 40.000 0.000 0 0 0 0
